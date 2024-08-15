@@ -71,7 +71,7 @@ p {
   margin-top: 2em;
   margin-left: 2.5em;
   margin-right: 2.5em;
-  margin-bottom: 0;
+  margin-bottom: 2em;
   color:#253237;
 }
 
@@ -80,6 +80,15 @@ a {
    color: darkgoldenrod;
 }
 
+.about-me-sidebar .about-me-container .resume {
+  text-decoration: none;
+   color: white;
+   background-color: darkgoldenrod;
+   padding: 10px;
+   border-radius: 0.5em;
+  margin-left:2.5em;
+
+  }
 /*---------------------------- nav ---------------------------*/
 nav {
   display:flex;
@@ -130,6 +139,7 @@ nav {
   margin-left: auto;
   margin-right: auto;
    align-items: center; 
+   margin-top: 2em;
 }
 
 .about-me-sidebar .about-me-container .imgabout {
